@@ -1,0 +1,7 @@
+streamlit
+google-cloud-firestore
+google-auth
+pandas
+requests
+altair
+python-dotenv
