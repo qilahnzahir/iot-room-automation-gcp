@@ -29,7 +29,11 @@ iot-room-autmation-gcp/
 └── docs/                             # Documentation and resources
     └── dashboard_screenshot/         # System screenshots for documentation
 ```
-
+**Credential and Required Files:**
+- `smart_room_control.ino `: requires CA Certificate from ca.crt file, WIFI SSID and Password, MQTT Username and password.
+- `mqtt_to_firestore.py`: require MQTT username and password, firestore-key.json
+- `app.py`: require FIREBASE_API_KEY for Firebase Authentication
+- `firestore_client.py`: require firestore-key.json
 ---------------------
 ## Security Features
 - MQTT Communication using TLS on port 8883
